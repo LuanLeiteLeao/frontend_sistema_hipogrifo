@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(242.2deg, #D1DDEA 11.84%, #A2A3A5 47.62%, #697279 88.16%);
+}
+
+.conatiner-main {
+    /* center the background image vertically and horizontally*/
+    background-position: center center;
+    /* removing tilings and repeatition*/
+    background-repeat: no-repeat;
+    /* to scale image to fit the screen */
+    background-size: cover;
+    /* fixed viewport against scroll ups and downs*/
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.conatiner-main>.conatiner-info {
+    /* dimenções */
+    width: 510px;
+    height: 477px;
+    background: #0A1635;
+    border-radius: 67px 0px 0px 67px;
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.conatiner-main>.conatiner-info>img {
+    margin-top: -90px;
+}
+
+.conatiner-main>.conatiner-info>p {
+    margin-top: 0px;
+    width: 430px;
+    height: 255px;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.conatiner-main>.conatiner-form {
+    width: 666px;
+    height: 477px;
+    background: rgba(255, 255, 255, 0.96);
+    opacity: 0.75;
+    border-radius: 0px 67px 67px 0px;
+    /* layout */
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conatiner-main>.conatiner-form>h1 {
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 67px;
+    color: #05346B;
+}
+
+.conatiner-main>.conatiner-form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conatiner-main>.conatiner-form>form>.horizontal-lineage>input {
+    width: 438px;
+    height: 46px;
+    background: rgba(255, 248, 248, 0.75);
+    mix-blend-mode: normal;
+    border-radius: 10px;
+}
+
+.conatiner-main>.conatiner-form>form>a {
+    margin: 15px;
+    width: 100%;
+    text-align: right;
+    /*  fonte */
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1542E1;
+}
+
+.conatiner-main>.conatiner-form>form>.horizontal-lineage {
+    display: flex;
+    flex-direction: row;
+}
+
+.conatiner-main>.conatiner-form>form>:first-child {
+    margin-bottom: 55px;
+}
+
+button {
+    /* fonte */
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #05346B;
+    /* dimencao */
+    background: linear-gradient(180deg, rgba(255, 248, 248, 0.75) 99.99%, #3B70A2 100%);
+    border-radius: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
