@@ -78,11 +78,18 @@ body {
 }
 
 .conatiner-main>.conatiner-form>form>.horizontal-lineage>input {
+    padding-left: 15px;
     width: 438px;
     height: 46px;
     background: rgba(255, 248, 248, 0.75);
     mix-blend-mode: normal;
     border-radius: 10px;
+}
+
+.conatiner-main>.conatiner-form>form>.horizontal-lineage>input::-webkit-input-placeholder {
+    font-family: Reem Kufi;
+    font-size: 19px;
+    line-height: 36px;
 }
 
 .conatiner-main>.conatiner-form>form>a {
