@@ -11,34 +11,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet" </head>
 
     <body>
+        <script src="../js/script.js"></script>
         <div class="conatiner-main">
             <div class="conatiner-info">
                 <img src="../img/hipogrifo_logo.svg" alt="logo" />
-                <p>
-                    Entre com suas informações pessoais, para começar sua jornada conosco !
-                </p>
-                <a href="/cadastro/index.html">
-                    <button class="button-cinza-claro">Cadastrar</button>
+                <p>Será enviado um e-mail de redefinição se senha.</p>
+                <a href="/login/index.html">
+                    <button class="button-cinza-claro">Cancelar</button>
                 </a>
             </div>
 
             <div class="conatiner-form">
-                <h1>Login</h1>
-                <form action="">
+                <h1>REDEFINIÇÃO DE SENHA</h1>
+                <form style="margin-top: 35px" action="">
                     <div class="horizontal-lineage">
                         <img src="../img/email_ico.svg" alt="email ícone" />
                         <input type="email" placeholder="Email" required />
                     </div>
                     <div class="horizontal-lineage">
-                        <img src="../img/cadeado_ico.svg" alt="email ícone" />
-                        <input type="password" placeholder="Senha" required />
+                        <img src="../img/cpf_ico.svg" alt="cpf icone" />
+                        <input type="text" m placeholder="CPF" oninput="mascara(this)" required />
                     </div>
-                    <a class="link" href="/redefinicao_de_senha /index.html">Esqueceu a senha?</a
-          >
 
-          <button class="botao-azul-escuro" type="submit">Enviar</button>
-        </form>
-      </div>
-    </div>
-  </body>
+                    <button style="margin-top: 72px" class="botao-azul-escuro" type="submit">
+            Enviar
+          </button>
+                </form>
+            </div>
+        </div>
+    </body>
+
 </html>
