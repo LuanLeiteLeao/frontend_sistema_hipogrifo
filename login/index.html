@@ -3,43 +3,42 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
     <title>Título da Página (Estrutura básica de uma página com HTML 5)</title>
     <link href="styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet" </head>
 
     <body>
-
         <div class="conatiner-main">
             <div class="conatiner-info">
-                <img src="../img/hipogrifo_logo.svg" alt="logo">
+                <img src="../img/hipogrifo_logo.svg" alt="logo" />
                 <p>
                     Entre com suas informações pessoais, para começar sua jornada conosco !
                 </p>
-                <button>Cadastrar</button>
-
+                <a href="/cadastro/index.html">
+                    <button class="button-cinza-claro">Cadastrar</button>
+                </a>
             </div>
 
             <div class="conatiner-form">
                 <h1>Login</h1>
                 <form action="">
                     <div class="horizontal-lineage">
-                        <img src="../img/email_ico.svg" alt="email ícone">
-                        <input type="email" placeholder="Email" required>
+                        <img src="../img/email_ico.svg" alt="email ícone" />
+                        <input type="email" placeholder="Email" required />
                     </div>
                     <div class="horizontal-lineage">
-                        <img src="../img/cadeado_ico.svg" alt="email ícone">
-                        <input type="password" placeholder="Senha" required>
+                        <img src="../img/cadeado_ico.svg" alt="email ícone" />
+                        <input type="password" placeholder="Senha" required />
                     </div>
-                    <a href="/um_lugar_ai">Esqueceu a senha?</a>
-                    <button type="submit">Enviar</button>
+                    <a class="link" href="/um_lugar_ai">Esqueceu a senha?</a>
 
+                    <button class="botao-azul-escuro" type="submit">Enviar</button>
                 </form>
-
             </div>
         </div>
-
     </body>
 
 </html>

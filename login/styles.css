@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(242.2deg, #D1DDEA 11.84%, #A2A3A5 47.62%, #697279 88.16%);
+    background: linear-gradient( 242.2deg, #d1ddea 11.84%, #a2a3a5 47.62%, #697279 88.16%);
 }
 
 .conatiner-main {
@@ -15,19 +15,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .conatiner-main>.conatiner-info {
     /* dimenções */
     width: 510px;
     height: 477px;
-    background: #0A1635;
+    background: #0a1635;
     border-radius: 67px 0px 0px 67px;
     /* layout */
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .conatiner-main>.conatiner-info>img {
@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #C4C4C4;
+    color: #c4c4c4;
 }
 
 .conatiner-main>.conatiner-form {
@@ -68,7 +68,7 @@ body {
     font-weight: normal;
     font-size: 60px;
     line-height: 67px;
-    color: #05346B;
+    color: #05346b;
 }
 
 .conatiner-main>.conatiner-form>form {
@@ -92,7 +92,7 @@ body {
     line-height: 36px;
 }
 
-.conatiner-main>.conatiner-form>form>a {
+.conatiner-main>.conatiner-form>form>.link {
     margin: 15px;
     width: 100%;
     text-align: right;
@@ -102,7 +102,7 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
-    color: #1542E1;
+    color: #1542e1;
 }
 
 .conatiner-main>.conatiner-form>form>.horizontal-lineage {
@@ -110,25 +110,6 @@ body {
     flex-direction: row;
 }
 
-.conatiner-main>.conatiner-form>form>:first-child {
+.conatiner-main>.conatiner-form>form> :first-child {
     margin-bottom: 55px;
-}
-
-button {
-    /* fonte */
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #05346B;
-    /* dimencao */
-    background: linear-gradient(180deg, rgba(255, 248, 248, 0.75) 99.99%, #3B70A2 100%);
-    border-radius: 24px;
-    padding-right: 40px;
-    padding-left: 40px;
 }
